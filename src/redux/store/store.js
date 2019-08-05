@@ -7,7 +7,7 @@ const initialState = {}
 
 // this single line creates a single global state,
 // it keeps in memory an object holding our state and protects it from wrong intents of transforming it.
-// Now just dipacth() can modify it. This single line also ensures us that when the state changes, 
+// Now only dipacth() can modify it. This single line also ensures us that when the state changes, 
 // every subscriber will be notified
 // having a redux store we will be able to see what happens inside using redux-dev-tools. All those changes are visible to us
 const store = createStore(reducers, initialState)

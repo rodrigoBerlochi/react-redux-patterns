@@ -1,4 +1,5 @@
-import defaultState from '../store/defaultState'
+import defaultState from '../store/defaultState';
+import { SET_NAMES, SET_LOC } from '../actions/profileActions';
 
 // We extract only the slice of the default state we want
 const { profile } = defaultState
@@ -7,7 +8,7 @@ const { profile } = defaultState
 // no side effects, no randomness, no network requests
 export default function profileReducer (state = profile, action) {
     switch (action.type) {
-        case 'ACTION_NAME':
+        case SET_NAMES:
             return {...state, property: action.payload}
         default:
             return state // return previous State if action is unknown

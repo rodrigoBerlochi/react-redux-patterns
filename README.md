@@ -16,3 +16,5 @@ EVENTUALLY THIS WILL BECOME A NEW REPOSITORY ORGANIZED AS DOCUMENTATION-BOOK.
 3. [Reducer entry point]{https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/reducers/index.js}
    1. [A specific reducer: Experience](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/reducers/experienceReducer.js)
    2. [The second reducer: Profile](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/reducers/profileReducer.js)
+4. [Action module I](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/actions/experienceActions.js)
+5. [Action module II](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/actions/profileActions.js)

@@ -3,12 +3,12 @@
 // That Action is an object (eventually) that identifies what happened and data involved
 // in the change
 
-// action types are exported as constants with UPPERCASE names, 
-// while action creators are exported with camelCase as usualin functions
-// The type exported then will be used in the reducer, since it is the way reducers indetify
+// Action types are exported as constants with UPPERCASE names, 
+// while action creators are exported with camelCase as usual in functions.
+// The type exported then will be used in the reducer, since it is the way reducers indentify
 // received actions. 
 // Action types can be defined in a specific file, but lastly I prefer defining them together with the action
-// using it, since they are a unit and avoid spreading that code across 3 different files
+// that uses it, since they are a unit and it avoids spreading that code across 3 different files
 export const SET_NAMES = 'SET_NAMES';
 // action creators as functions that return action-objects
 export function setName (payload) {

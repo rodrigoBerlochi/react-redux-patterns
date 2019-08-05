@@ -1,11 +1,13 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+// this layer consumes presentational components
+// as well as Action Creators
 import { Button } from '../components/button/button';
 import { setLocation, setName } from '../redux/actions/profileActions';
 
 const EditProfile = ({
-
+    // here destructuring the props
 }) => (
     <div>
         <input />
@@ -14,7 +16,7 @@ const EditProfile = ({
 )
 
 // logic for interacting with Redux is encapsulated in this level
-// and the returned object of the next two function are passed 
+// Tthe returned object of the next two functions are passed 
 // as PROPS to the connected component
 const mapState = state => ({
 
@@ -26,7 +28,7 @@ const mapDispatch = (dispatch, props) => ({
     queryAll: dispatch(queryAll(props.id)),
 });
 */
-// ...or as object, wrapped in dispatch automatically
+// ...or as object, wrapping every property into a dispatch automatically
 const mapDispatch = {
     setName,
     setLocation,

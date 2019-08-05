@@ -21,3 +21,5 @@ EVENTUALLY THIS WILL BECOME A NEW REPOSITORY ORGANIZED AS DOCUMENTATION-BOOK.
    2. [The second reducer: Profile](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/reducers/profileReducer.js)
 4. [Action module I](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/actions/experienceActions.js)
 5. [Action module II](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/actions/profileActions.js)
+6. [The app ui layer entry point (WIP)](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/app-ui/index.js)
+   1. [Example of a connected component (WIP)](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/app-ui/editProfile.js)

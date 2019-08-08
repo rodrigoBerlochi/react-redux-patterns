@@ -16,7 +16,7 @@ EVENTUALLY THIS WILL BECOME A NEW REPOSITORY ORGANIZED AS DOCUMENTATION-BOOK.
    1. In the real life I'd prefer keep components & stories for them in a separate repository 
 2. [Creating the Redux Store](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/store/store.js)
    1. [Starting with a default state](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/store/defaultState.js)
-3. [Reducer entry point]{https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/reducers/index.js}
+3. [Reducer entry point](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/reducers/index.js)
    1. [A specific reducer: Experience](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/reducers/experienceReducer.js)
    2. [The second reducer: Profile](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/reducers/profileReducer.js)
 4. [Action module I](https://github.com/rodrigoBerlochi/react-redux-patterns/blob/master/src/redux/actions/experienceActions.js)
